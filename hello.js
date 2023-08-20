@@ -4,8 +4,8 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("i hate u");
-console. log('but i "love" u');
+console.log("i love u");
+console. log('i love u so much');
 
 
 
