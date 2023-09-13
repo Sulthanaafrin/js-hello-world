@@ -47,4 +47,27 @@ console.log("Sucess! Computer Online")
     console.log("all systems go");
  } */
 
- 
+ let fuelLevel = 6000;
+ let engineTemperature = 1200;
+/*if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight === "redBlinking") {
+    console.log("ENGINE FAILURE IMMINENT.");
+} else if ( fuelLevel <= 5000 || engineTemperature > 2500){
+    console.log("Check Fuel Level. Engine Runnung Hot.");
+} else if ( fuelLevel > 20000 && engineTemperature < 2500) {
+    console.log("Full Tank. Engines Good.");
+} else if ( fuelLevel > 10000 && engineTemperature < 2500) {
+    console.log("Fuel Level Above 50%. Engine Good.");
+}  else if (fuelLevel >= 5000 && engineTemperature < 2500) {
+    console.log("Fuel Level Above 25%. Engine Good.");
+} else { 
+    console.log("Fuel and Engine Status Pending...");
+} */
+
+let commandOverRide = true;
+if ( fuelLevel > 20000 && engineIndicatorlight !== "redBlinking" || commandOverRide) {
+    console.log("Cleared to Launch");
+ } else {
+    console.log("Launch Scrubbed");
+ }
+
+
