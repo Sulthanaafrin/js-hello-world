@@ -29,7 +29,7 @@ let x = 1;
 x += 1;
 console.log(x);*/
 
-let nameOfTheSpaceShuttle = "determination";
+/*let nameOfTheSpaceShuttle = "determination";
 let shuttleSpeed_mph = 17500;
 let distanceToMars_km = 225000000;
 let distanceToTheMoon_km = 384400;
@@ -41,4 +41,25 @@ console.log("determination\twill\ttake\t332\tdays\tto\treach\tMars.");
 console.log(milesToMoon = distanceToTheMoon_km * milesPerKilometer);
 console.log(hoursToReachMoon = milesToMoon / shuttleSpeed_mph);
 console.log(daysToReachMoon = hoursToReachMoon / 24);
-console.log("determination\twill\ttake\t0.56\tdays\tto\treach\tMoon.");
+console.log("determination\twill\ttake\t0.56\tdays\tto\treach\tMoon.");*/
+
+/*let x = 10;
+let y = 20;
+
+if (x > y) {
+   console.log("x is greater than y");
+} else if (x < y) {
+   console.log("x is less than y");
+} else if (x % 5 === 0) {
+   console.log("x is divisible by 5");
+} else if (x % 2 === 0) {
+   console.log("x is even");
+}
+let a = 7;
+if (a % 2 === 1) {
+   console.log("Launch");
+} else if (a > 5) {
+   console.log("Code");
+} else {
+   console.log("LaunchCode");
+}*/
