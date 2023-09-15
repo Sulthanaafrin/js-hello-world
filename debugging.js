@@ -102,7 +102,7 @@ if (fuelLevel >= 20000) {
 } else {
    console.log('WARNING: Insufficient fuel!');
    launchReady = false;
-} */
+} 
 
 let launchReady = false;
  let fuelLevel = 17000;
@@ -131,4 +131,11 @@ if (crewReady && launchReady) {
     console.log("Liftoff!");
 } else {
     console.log("Launch Scrubbed");
-}
+} */
+
+console.log(Boolean("true"));
+console.log(Boolean("TRUE"));
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(' '));
+console.log(Boolean('Launch Code'));
