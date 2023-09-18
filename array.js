@@ -1,4 +1,4 @@
-/*let practiceFile = ['273.15'];
+let practiceFile = ['273.15'];
 
 practiceFile.push("42", "hello");
 console.log(practiceFile);
@@ -81,11 +81,16 @@ console.log(arr);
 arr.join('');
 console.log(arr);
 
-console.log(str.split(',').sort().join(','));*/
+console.log(str.split(',').sort().join(','));
 
 let element1 = ['hydrogen', 'H', 1.008];
 element2 = ['helium', 'He', 4.003];
 element26 = ['iron', 'Fe', 55.85];
 
-let element = [ element1, element2, element26]
-console.log(element);
+let table = [];
+
+table.push(element1);
+table.push(element2);
+table.push(element26);
+
+console.log(table[1], table[1][1]);
