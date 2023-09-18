@@ -24,8 +24,6 @@ if (String(num3).includes('.')){
     console.log(String(num3).length);
     }
 
-
-
 let dna = " TCG-TAC-gaC-TAC-CGT-CAG-ACT-TAa-CcA-GTC-cAt-AGA-GCT ";
 
 console.log(dna.trim());
