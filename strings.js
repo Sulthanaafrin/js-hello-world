@@ -155,4 +155,5 @@ table.push(element1);
 table.push(element2);
 table.push(element26);
 
+
 console.log(table[1], table[1][1]);
