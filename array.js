@@ -1,4 +1,4 @@
-let practiceFile = ['273.15'];
+/*let practiceFile = ['273.15'];
 
 practiceFile.push("42", "hello");
 console.log(practiceFile);
@@ -93,4 +93,12 @@ table.push(element1);
 table.push(element2);
 table.push(element26);
 
-console.log(table[1], table[1][1]);
+console.log(table[1], table[1][1]);*/
+
+let school = [
+    ["science", "computer", "art",]
+    ["Jones", "Willoughby", "Rhodes"]
+];
+
+school.push("dance");
+console.log(school);
