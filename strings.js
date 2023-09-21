@@ -1,4 +1,4 @@
-let num = 1001;
+/*let num = 1001;
 console.log(num.length);
 console.log(String(num).length);
 
@@ -144,7 +144,7 @@ arr.join('');
 console.log(arr);
 
 console.log(str.split(',').sort().join(','));
-
+*/
 let element1 = ['hydrogen', 'H', 1.008];
 element2 = ['helium', 'He', 4.003];
 element26 = ['iron', 'Fe', 55.85];
