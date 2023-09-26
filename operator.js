@@ -1,11 +1,11 @@
-let engineIndicatorLight = "redBlinking";
+let engineIndicatorLight = "red Blinking";
 let spaceSuitsOn = true;
 let shuttleCabinready = true;
 let crewStatus = spaceSuitsOn && shuttleCabinready;
 let computerStatusCode = 200;
 let shuttleSpeed = 15000;
 
-/*if (engineIndicatorLight === "green") {
+if (engineIndicatorLight === "green") {
     console.log("engines have started");
  } else if (engineIndicatorLight === "green blinking") {
     console.log("engines are preparing to start");
@@ -18,6 +18,7 @@ let shuttleSpeed = 15000;
  } else {
     console.log("Crew Not Ready");
  }
+
 
  if (computerStatusCode === 200) {
     console.log("Please Stand By. Computer is Rebooting");
@@ -45,11 +46,12 @@ console.log("Sucess! Computer Online")
     console.log("WARNING. Not ready");
  } else {
     console.log("all systems go");
- } */
+ } 
 
  let fuelLevel = 6000;
  let engineTemperature = 1200;
-/*if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight === "redBlinking") {
+
+ if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight === "redBlinking") {
     console.log("ENGINE FAILURE IMMINENT.");
 } else if ( fuelLevel <= 5000 || engineTemperature > 2500){
     console.log("Check Fuel Level. Engine Runnung Hot.");
@@ -61,7 +63,8 @@ console.log("Sucess! Computer Online")
     console.log("Fuel Level Above 25%. Engine Good.");
 } else { 
     console.log("Fuel and Engine Status Pending...");
-} */
+} 
+
 
 let commandOverRide = true;
 if ( fuelLevel > 20000 && engineIndicatorlight !== "redBlinking" || commandOverRide) {

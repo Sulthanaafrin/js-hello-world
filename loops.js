@@ -66,3 +66,4 @@ if (altitude <= 2000){
 }
 
 console.log(`The shuttle gained an altitude of ${altitude} km`)
+

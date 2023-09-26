@@ -95,10 +95,11 @@ table.push(element26);
 
 console.log(table[1], table[1][1]);*/
 
-let school = [
+/*let school = [
     ["science", "computer", "art",]
     ["Jones", "Willoughby", "Rhodes"]
 ];
 
 school.push("dance");
-console.log(school);
+console.log(school);*/
+
